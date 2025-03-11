@@ -13,7 +13,7 @@ def getSensorData(ser):
                 line = ser.readline().decode('utf-8').strip()
                 
                 # Debug line to see what's being received
-                # print(f"Raw data: {line}")  
+                print(f"Raw data: {line}")  
                 
                 if line.startswith("T:"):
                     try:
