@@ -17,11 +17,17 @@ Create a pair between COM4 and COM5, and create a virtual connection
 
 #### Get Sensor Data
 Resquest:
-```http
+```
 http://localhost:8081/get-sensor-data
 ```
 #### Get Sensor Data
-Response:
-```http
-http://localhost:8081/get-sensor-data
+Response [Sample]:
+```
+{
+    "data": {
+        "humidity": 90.0,
+        "temperature": 27.0
+    },
+    "success": true
+}
 ```
