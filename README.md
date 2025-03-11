@@ -13,6 +13,13 @@ Create a pair between COM4 and COM5, and create a virtual connection
 
 ![alt text](image-1.png)
 
+## RUN Application
+Open the terminal as administrator, nativate to the project directory, and run the following command:
+
+```
+python app.py
+```
+
 ## API 
 
 #### Get Sensor Data
